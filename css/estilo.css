@@ -1,6 +1,6 @@
 .titulo { 
     text-align: center;
-background-color: blue;
+background-color:  #252850;
 color: white;
 }
 
@@ -9,5 +9,23 @@ color: white;
 }
 
 .imagenUno { 
+margin-left: 25%;
+margin-top: 3%;
+}
+.noDejes { 
+    color: black;
+}
+body { 
+background-color:  #252850;
+}
 
+.noticias { 
+color: white;
+text-align: center;
+margin-top: 5%;
+background-color: grey;
+}
+
+.contenedor {
+    margin-top: 5%;
 }
