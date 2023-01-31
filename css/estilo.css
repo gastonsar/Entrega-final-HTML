@@ -26,6 +26,37 @@ margin-top: 5%;
 background-color: grey;
 }
 
-.contenedor {
-    margin-top: 5%;
+
+
+footer ul { 
+    color: white;
+list-style: none;
+}
+
+.linea { 
+    color: white;
+}
+
+.informacion { 
+    text-align: center;
+color: orange;
+}
+
+u { 
+    color: orange;
+}
+
+.padre {  
+    background-color:white ;
+margin-left: 7%;
+margin-right: 7%;
+
+}
+
+.socios { 
+    text-align: center;
+}
+
+.socios li { 
+    color: red;
 }
