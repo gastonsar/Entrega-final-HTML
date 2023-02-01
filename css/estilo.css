@@ -54,9 +54,13 @@ margin-right: 7%;
 }
 
 .socios { 
-    text-align: center;
+   ;
 }
 
 .socios li { 
     color: red;
+}
+
+.video { 
+    text-align: center;
 }
