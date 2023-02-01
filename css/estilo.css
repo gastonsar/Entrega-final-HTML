@@ -53,14 +53,45 @@ margin-right: 7%;
 
 }
 
-.socios { 
-   ;
-}
-
-.socios li { 
+.ulUno li { 
     color: red;
 }
 
 .video { 
     text-align: center;
+}
+.conte {
+    background-color: white;
+}
+
+.cardUno {
+    grid-area: cardUno;
+}
+.cardDos { 
+    grid-area: cardDos;
+}
+
+.cardTres { 
+    grid-area: cardTres;
+}
+
+.cardCuatro { 
+    grid-area: cardCuatro;
+}
+.cardCinco { 
+    grid-area: cardCinco;
+}
+
+.cardSeis { 
+    grid-area: cardSeis;
+}
+
+@media(min-width:1200px) {
+    .conte { 
+        display: grid;
+        grid-template-areas: 
+        "cardUno cardDos cardTres "
+        "cardCuatro cardCinco cardSeis "
+        ;
+    }
 }
