@@ -1,65 +1,68 @@
-.titulo { 
+.titulo {
     text-align: center;
-background-color:  #252850;
-color: white;
+    background-color: #252850;
+    color: white;
 }
 
 .menucito {
     text-align: center;
 }
 
-.imagenUno { 
-margin-left: 25%;
-margin-top: 3%;
+.imagenUno {
+    margin-left: 25%;
+    margin-top: 3%;
 }
-.noDejes { 
+
+.noDejes {
     color: black;
 }
-body { 
-background-color:  #252850;
+
+body {
+    background-color: #252850;
 }
 
-.noticias { 
-color: white;
-text-align: center;
-margin-top: 5%;
-background-color: grey;
-}
-
-
-
-footer ul { 
+.noticias {
     color: white;
-list-style: none;
-}
-
-.linea { 
-    color: white;
-}
-
-.informacion { 
     text-align: center;
-color: orange;
+    margin-top: 5%;
+    background-color: grey;
 }
 
-u { 
+
+
+footer ul {
+    color: white;
+    list-style: none;
+}
+
+.linea {
+    color: white;
+}
+
+.informacion {
+    text-align: center;
     color: orange;
 }
 
-.padre {  
-    background-color:white ;
-margin-left: 7%;
-margin-right: 7%;
+u {
+    color: orange;
+}
+
+.padre {
+    background-color: white;
+    margin-left: 7%;
+    margin-right: 7%;
 
 }
 
-.ulUno li { 
+.ulUno li {
     color: red;
 }
 
-.video { 
+.video {
     text-align: center;
 }
+
 .conte {
     background-color: white;
 }
@@ -67,107 +70,129 @@ margin-right: 7%;
 .cardUno {
     grid-area: cardUno;
 }
-.cardDos { 
+
+.cardDos {
     grid-area: cardDos;
 }
 
-.cardTres { 
+.cardTres {
     grid-area: cardTres;
 }
 
-.cardCuatro { 
+.cardCuatro {
     grid-area: cardCuatro;
 }
-.cardCinco { 
+
+.cardCinco {
     grid-area: cardCinco;
 }
 
-.cardSeis { 
+.cardSeis {
     grid-area: cardSeis;
 }
 
 @media(min-width:1200px) {
-    .conte { 
+    .conte {
         display: grid;
-        grid-template-areas: 
-        "cardUno cardDos cardTres "
-        "cardCuatro cardCinco cardSeis "
+        grid-template-areas:
+            "cardUno cardDos cardTres "
+            "cardCuatro cardCinco cardSeis "
         ;
     }
 }
 
-.tablas { 
+.tablas {
     background-color: wheat;
 }
 
-.tabla { 
+.tabla {
     background-color: white;
 }
-.tituloUno { 
+
+.tituloUno {
     text-align: center;
     color: orange;
 }
-.sectionB { 
+
+.sectionB {
     grid-area: sectionB;
 }
-.sectionC { 
+
+.sectionC {
     grid-area: sectionC;
 }
 
-@media(min-width:900px) { 
-.padreTablas {
-display: grid;
-gap: 10px;
-grid-template-areas: 
-"sectionB sectionC";
+@media(min-width:900px) {
+    .padreTablas {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "sectionB sectionC";
     }
 }
-.padreTablas { 
+
+.padreTablas {
     /* background-color: white; */
     margin-top: 3%;
 }
-h4 { 
+
+h4 {
     color: orange;
-text-align: center;
+    text-align: center;
 }
 
-.goleadores { 
+.goleadores {
     grid-area: goleadores;
 }
-.partidos { 
+
+.partidos {
     grid-area: partidos;
 }
 
-@media (min-width:900px){ 
-    .padreResumen { 
-display: grid;
-gap: 10px;
-grid-template-areas: 
-"goleadores partidos"
-; }
+@media (min-width:900px) {
+    .padreResumen {
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+            "goleadores partidos"
+        ;
+    }
 }
 
-.talleres { 
+.talleres {
     color: white;
     text-align: center;
     font-size: xxx-large;
-margin-top: 2%;
-border: solid gray 1px;
-background-color: gray;
-padding: 1%;
+    margin-top: 2%;
+    border: solid gray 1px;
+    background-color: gray;
+    padding: 1%;
 
 }
-h3 { 
+
+h3 {
     color: white;
-margin-top: 3%;
+    margin-top: 3%;
 }
-.history { 
+
+.history {
     color: white;
 }
-.subtitulos { 
-font-size: x-large;
-text-align: center;
-}
-.imagen { 
+
+.subtitulos {
+    font-size: x-large;
     text-align: center;
+}
+
+.imagen {
+    text-align: center;
+}
+.unPoco{
+    text-align: center;
+}
+
+.servicio { 
+    color: white;
+text-align: center;
+margin-top: 15%;
 }
