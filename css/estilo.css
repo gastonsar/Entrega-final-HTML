@@ -95,3 +95,54 @@ margin-right: 7%;
         ;
     }
 }
+
+.tablas { 
+    background-color: wheat;
+}
+
+.tabla { 
+    background-color: white;
+}
+.tituloUno { 
+    text-align: center;
+    color: orange;
+}
+.sectionB { 
+    grid-area: sectionB;
+}
+.sectionC { 
+    grid-area: sectionC;
+}
+
+@media(min-width:900px) { 
+.padreTablas {
+display: grid;
+gap: 10px;
+grid-template-areas: 
+"sectionB sectionC";
+    }
+}
+.padreTablas { 
+    /* background-color: white; */
+    margin-top: 3%;
+}
+h4 { 
+    color: white;
+text-align: center;
+}
+
+.goleadores { 
+    grid-area: goleadores;
+}
+.partidos { 
+    grid-area: partidos;
+}
+
+@media (min-width:900px){ 
+    .padreResumen { 
+display: grid;
+gap: 10px;
+grid-template-areas: 
+"goleadores partidos"
+; }
+}
