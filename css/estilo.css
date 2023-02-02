@@ -127,7 +127,7 @@ grid-template-areas:
     margin-top: 3%;
 }
 h4 { 
-    color: white;
+    color: orange;
 text-align: center;
 }
 
@@ -145,4 +145,29 @@ gap: 10px;
 grid-template-areas: 
 "goleadores partidos"
 ; }
+}
+
+.talleres { 
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+margin-top: 2%;
+border: solid gray 1px;
+background-color: gray;
+padding: 1%;
+
+}
+h3 { 
+    color: white;
+margin-top: 3%;
+}
+.history { 
+    color: white;
+}
+.subtitulos { 
+font-size: x-large;
+text-align: center;
+}
+.imagen { 
+    text-align: center;
 }
