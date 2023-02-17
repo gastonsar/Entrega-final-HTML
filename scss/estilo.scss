@@ -1,0 +1,214 @@
+
+@import "variables";
+
+
+.titulo {
+	text-align: center;
+	background-color: $background-color_1;
+	color: $color_1;
+}
+.menucito {
+	text-align: center;
+}
+.imagenUno {
+	margin-left: 25%;
+	margin-top: 3%;
+}
+.noDejes {
+	color: $color_2;
+}
+body {
+	background-color: $background-color_1;
+}
+.noticias {
+	color: $color_1;
+	text-align: center;
+	margin-top: 5%;
+	background-color: $background-color_2;
+}
+footer {
+	ul {
+		color: $color_1;
+		list-style: none;
+	}
+}
+.linea {
+	color: $color_1;
+}
+.informacion {
+	text-align: center;
+	color: $color_3;
+}
+u {
+	color: $color_3;
+}
+.padre {
+	background-color: $background-color_3;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+.ulUno {
+	li {
+		color: $color_4;
+	}
+}
+.video {
+	text-align: center;
+}
+.conte {
+	background-color: $background-color_3;
+}
+.cardUno {
+	grid-area: cardUno;
+}
+.cardDos {
+	grid-area: cardDos;
+}
+.cardTres {
+	grid-area: cardTres;
+}
+.cardCuatro {
+	grid-area: cardCuatro;
+}
+.cardCinco {
+	grid-area: cardCinco;
+}
+.cardSeis {
+	grid-area: cardSeis;
+}
+.tablas {
+	background-color: $background-color_4;
+}
+.tabla {
+	background-color: $background-color_3;
+}
+.tituloUno {
+	text-align: center;
+	color: $color_3;
+}
+.sectionB {
+	grid-area: sectionB;
+}
+.sectionC {
+	grid-area: sectionC;
+}
+.padreTablas {
+	margin-top: 3%;
+}
+h4 {
+	color: $color_3;
+	text-align: center;
+}
+.goleadores {
+	grid-area: goleadores;
+}
+.partidos {
+	grid-area: partidos;
+}
+.talleres {
+	color: $color_1;
+	text-align: center;
+	font-size: xxx-large;
+	margin-top: 2%;
+	border: solid gray 1px;
+	background-color: $background-color_5;
+	padding: 1%;
+}
+h3 {
+	color: $color_1;
+	margin-top: 3%;
+}
+.history {
+	color: $color_1;
+}
+.subtitulos {
+	font-size: x-large;
+	text-align: center;
+}
+.imagen {
+	text-align: center;
+}
+.unPoco {
+	text-align: center;
+}
+.servicio {
+	color: $color_1;
+	text-align: center;
+	margin-top: 15%;
+}
+.formulario {
+	background-color: $background-color_3;
+	color: $color_2;
+	margin-top: 50px;
+}
+.consulta {
+	color: $color_1;
+}
+.botones {
+	width: 500px;
+	display: inline;
+}
+.contacto {
+	color: $color_2;
+}
+@media (min-width:1200px) {
+	.conte {
+		display: grid;
+		grid-template-areas: "cardUno cardDos cardTres ""cardCuatro cardCinco cardSeis ";
+	}
+}
+@media (min-width:900px) {
+	.padreTablas {
+		display: grid;
+		gap: 10px;
+		grid-template-areas: "sectionB sectionC";
+	}
+}
+@media (min-width:900px) {
+	.padreResumen {
+		display: grid;
+		gap: 10px;
+		grid-template-areas: "goleadores partidos";
+	}
+}
+
+@media (max-width:800px){
+    .escudo { 
+        width: 9%;
+    }
+}
+@media(min-width: 801px) { 
+    .escudo { 
+        width: 7%;
+    }
+}
+@media (min-width: 1280px){
+    .escudo { 
+        width: 4.5%;
+    }
+}
+
+.contacto { 
+    color:  white;
+    h2 { 
+        text-align: center;
+    font-size: 3rem;
+
+    }
+}
+.contact {
+    text-align: center;
+    color: black;
+} 
+
+nav { 
+	ul { 
+		list-style: none;
+		li {
+			a { 
+				text-decoration: none;
+		}
+	}
+}
+}
+

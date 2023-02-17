@@ -1,198 +1,241 @@
 .titulo {
-    text-align: center;
-    background-color: #252850;
-    color: white;
+  text-align: center;
+  background-color: #252850;
+  color: white;
 }
 
 .menucito {
-    text-align: center;
+  text-align: center;
 }
 
 .imagenUno {
-    margin-left: 25%;
-    margin-top: 3%;
+  margin-left: 25%;
+  margin-top: 3%;
 }
 
 .noDejes {
-    color: black;
+  color: black;
 }
 
 body {
-    background-color: #252850;
+  background-color: #252850;
 }
 
 .noticias {
-    color: white;
-    text-align: center;
-    margin-top: 5%;
-    background-color: grey;
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  background-color: grey;
 }
 
-
-
 footer ul {
-    color: white;
-    list-style: none;
+  color: white;
+  list-style: none;
 }
 
 .linea {
-    color: white;
+  color: white;
 }
 
 .informacion {
-    text-align: center;
-    color: orange;
+  text-align: center;
+  color: orange;
 }
 
 u {
-    color: orange;
+  color: orange;
 }
 
 .padre {
-    background-color: white;
-    margin-left: 7%;
-    margin-right: 7%;
-
+  background-color: white;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .ulUno li {
-    color: red;
+  color: red;
 }
 
 .video {
-    text-align: center;
+  text-align: center;
 }
 
 .conte {
-    background-color: white;
+  background-color: white;
 }
 
 .cardUno {
-    grid-area: cardUno;
+  grid-area: cardUno;
 }
 
 .cardDos {
-    grid-area: cardDos;
+  grid-area: cardDos;
 }
 
 .cardTres {
-    grid-area: cardTres;
+  grid-area: cardTres;
 }
 
 .cardCuatro {
-    grid-area: cardCuatro;
+  grid-area: cardCuatro;
 }
 
 .cardCinco {
-    grid-area: cardCinco;
+  grid-area: cardCinco;
 }
 
 .cardSeis {
-    grid-area: cardSeis;
-}
-
-@media(min-width:1200px) {
-    .conte {
-        display: grid;
-        grid-template-areas:
-            "cardUno cardDos cardTres "
-            "cardCuatro cardCinco cardSeis "
-        ;
-    }
+  grid-area: cardSeis;
 }
 
 .tablas {
-    background-color: wheat;
+  background-color: wheat;
 }
 
 .tabla {
-    background-color: white;
+  background-color: white;
 }
 
 .tituloUno {
-    text-align: center;
-    color: orange;
+  text-align: center;
+  color: orange;
 }
 
 .sectionB {
-    grid-area: sectionB;
+  grid-area: sectionB;
 }
 
 .sectionC {
-    grid-area: sectionC;
-}
-
-@media(min-width:900px) {
-    .padreTablas {
-        display: grid;
-        gap: 10px;
-        grid-template-areas:
-            "sectionB sectionC";
-    }
+  grid-area: sectionC;
 }
 
 .padreTablas {
-    /* background-color: white; */
-    margin-top: 3%;
+  margin-top: 3%;
 }
 
 h4 {
-    color: orange;
-    text-align: center;
+  color: orange;
+  text-align: center;
 }
 
 .goleadores {
-    grid-area: goleadores;
+  grid-area: goleadores;
 }
 
 .partidos {
-    grid-area: partidos;
-}
-
-@media (min-width:900px) {
-    .padreResumen {
-        display: grid;
-        gap: 10px;
-        grid-template-areas:
-            "goleadores partidos"
-        ;
-    }
+  grid-area: partidos;
 }
 
 .talleres {
-    color: white;
-    text-align: center;
-    font-size: xxx-large;
-    margin-top: 2%;
-    border: solid gray 1px;
-    background-color: gray;
-    padding: 1%;
-
+  color: white;
+  text-align: center;
+  font-size: xxx-large;
+  margin-top: 2%;
+  border: solid gray 1px;
+  background-color: gray;
+  padding: 1%;
 }
 
 h3 {
-    color: white;
-    margin-top: 3%;
+  color: white;
+  margin-top: 3%;
 }
 
 .history {
-    color: white;
+  color: white;
 }
 
 .subtitulos {
-    font-size: x-large;
-    text-align: center;
+  font-size: x-large;
+  text-align: center;
 }
 
 .imagen {
-    text-align: center;
-}
-.unPoco{
-    text-align: center;
+  text-align: center;
 }
 
-.servicio { 
-    color: white;
-text-align: center;
-margin-top: 15%;
+.unPoco {
+  text-align: center;
 }
+
+.servicio {
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.formulario {
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+}
+
+.consulta {
+  color: white;
+}
+
+.botones {
+  width: 500px;
+  display: inline;
+}
+
+.contacto {
+  color: black;
+}
+
+@media (min-width: 1200px) {
+  .conte {
+    display: grid;
+    grid-template-areas: "cardUno cardDos cardTres " "cardCuatro cardCinco cardSeis ";
+  }
+}
+@media (min-width: 900px) {
+  .padreTablas {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "sectionB sectionC";
+  }
+}
+@media (min-width: 900px) {
+  .padreResumen {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "goleadores partidos";
+  }
+}
+@media (max-width: 800px) {
+  .escudo {
+    width: 9%;
+  }
+}
+@media (min-width: 801px) {
+  .escudo {
+    width: 7%;
+  }
+}
+@media (min-width: 1280px) {
+  .escudo {
+    width: 4.5%;
+  }
+}
+.contacto {
+  color: white;
+}
+.contacto h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.contact {
+  text-align: center;
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=estilo.css.map */
