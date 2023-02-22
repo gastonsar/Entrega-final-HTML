@@ -43,9 +43,9 @@ u {
 	color: $color_3;
 }
 .padre {
-	background-color: $background-color_3;
-	margin-left: 7%;
-	margin-right: 7%;
+	background-color: #CFDEE8;
+	margin-left: 4%;
+	margin-right: 4%;
 }
 .ulUno {
 	li {
@@ -189,12 +189,14 @@ h3 {
 }
 
 .contacto { 
-    color:  white;
     h2 { 
         text-align: center;
     font-size: 3rem;
 
     }
+}
+.formulario { 
+	background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
 }
 .contact {
     text-align: center;
@@ -212,3 +214,10 @@ nav {
 }
 }
 
+.socios { 
+	
+	background-image: url(../imagenes/asociate.jpg);
+}
+.bodyContact { 
+	background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
+}

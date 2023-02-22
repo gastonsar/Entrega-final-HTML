@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .titulo {
   text-align: center;
   background-color: #252850;
@@ -47,9 +48,9 @@ u {
 }
 
 .padre {
-  background-color: white;
-  margin-left: 7%;
-  margin-right: 7%;
+  background-color: #CFDEE8;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .ulUno li {
@@ -218,12 +219,13 @@ h3 {
     width: 4.5%;
   }
 }
-.contacto {
-  color: white;
-}
 .contacto h2 {
   text-align: center;
   font-size: 3rem;
+}
+
+.formulario {
+  background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
 }
 
 .contact {
@@ -236,6 +238,14 @@ nav ul {
 }
 nav ul li a {
   text-decoration: none;
+}
+
+.socios {
+  background-image: url(../imagenes/asociate.jpg);
+}
+
+.bodyContact {
+  background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
 }
 
 /*# sourceMappingURL=estilo.css.map */
