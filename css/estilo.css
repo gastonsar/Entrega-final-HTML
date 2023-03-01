@@ -1,8 +1,6 @@
-@charset "UTF-8";
 .titulo {
   text-align: center;
-  background-color: #252850;
-  color: white;
+  background: linear-gradient(to right, #252850, white);
 }
 
 .menucito {
@@ -19,7 +17,7 @@
 }
 
 body {
-  background-color: #252850;
+  background: linear-gradient(#252850, white);
 }
 
 .noticias {
@@ -30,17 +28,19 @@ body {
 }
 
 footer ul {
-  color: white;
+  color: black;
   list-style: none;
+  background-color: white;
 }
 
 .linea {
-  color: white;
+  color: black;
 }
 
 .informacion {
   text-align: center;
-  color: orange;
+  color: black;
+  font-weight: bold;
 }
 
 u {
@@ -48,45 +48,78 @@ u {
 }
 
 .padre {
-  background-color: #CFDEE8;
+  background-color: whitesmoke;
   margin-left: 4%;
   margin-right: 4%;
 }
 
 .ulUno li {
-  color: red;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ulUno p {
+  color: black;
 }
 
 .video {
   text-align: center;
 }
 
-.conte {
-  background-color: white;
-}
-
 .cardUno {
   grid-area: cardUno;
+}
+.cardUno:hover {
+  background-color: #D1D9DE;
 }
 
 .cardDos {
   grid-area: cardDos;
 }
+.cardDos:hover {
+  background-color: #D1D9DE;
+}
 
 .cardTres {
   grid-area: cardTres;
+}
+.cardTres:hover {
+  background-color: #D1D9DE;
 }
 
 .cardCuatro {
   grid-area: cardCuatro;
 }
+.cardCuatro:hover {
+  background-color: #D1D9DE;
+}
 
 .cardCinco {
   grid-area: cardCinco;
 }
+.cardCinco:hover {
+  background-color: #D1D9DE;
+}
 
 .cardSeis {
   grid-area: cardSeis;
+}
+.cardSeis:hover {
+  background-color: #D1D9DE;
+}
+
+.cardSiete {
+  grid-area: cardSiete;
+}
+.cardSiete:hover {
+  background-color: #D1D9DE;
+}
+
+.cardOcho {
+  grid-area: cardOcho;
+}
+.cardOcho:hover {
+  background-color: #D1D9DE;
 }
 
 .tablas {
@@ -130,9 +163,9 @@ h4 {
 .talleres {
   color: white;
   text-align: center;
-  font-size: xxx-large;
+  font-style: italic;
   margin-top: 2%;
-  border: solid gray 1px;
+  border: solid white 1px;
   background-color: gray;
   padding: 1%;
 }
@@ -147,15 +180,13 @@ h3 {
 }
 
 .subtitulos {
-  font-size: x-large;
+  color: black;
   text-align: center;
+  font-size: x-large;
+  font-style: italic;
 }
 
 .imagen {
-  text-align: center;
-}
-
-.unPoco {
   text-align: center;
 }
 
@@ -184,10 +215,10 @@ h3 {
   color: black;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1190px) {
   .conte {
     display: grid;
-    grid-template-areas: "cardUno cardDos cardTres " "cardCuatro cardCinco cardSeis ";
+    grid-template-areas: "cardUno cardDos cardTres cardSiete" "cardCuatro cardCinco cardSeis cardOcho";
   }
 }
 @media (min-width: 900px) {
@@ -224,8 +255,8 @@ h3 {
   font-size: 3rem;
 }
 
-.formulario {
-  background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
+.contactoFondo {
+  background: linear-gradient(to right blue, red);
 }
 
 .contact {
@@ -244,8 +275,104 @@ nav ul li a {
   background-image: url(../imagenes/asociate.jpg);
 }
 
-.bodyContact {
-  background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
+.infoT {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 1100px) {
+  .flexUno {
+    display: flex;
+    flex-direction: row;
+  }
+  .flexUno .cajaUno {
+    width: 120%;
+    margin-top: 3%;
+  }
+  .flexUno .cajaDos {
+    width: 70%;
+  }
+}
+@media (min-width: 1100px) {
+  .flexDos {
+    display: flex;
+    flex-direction: row;
+  }
+  .cajaTres {
+    width: 100%;
+    margin-left: 2%;
+  }
+  .cajaCuatro {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 1100px) {
+  .flexTres {
+    display: flex;
+  }
+  .cajaSeis {
+    width: 70%;
+  }
+  .cajaCinco {
+    width: 120%;
+  }
+}
+@media (min-width: 1100px) {
+  .flexCuatro {
+    display: flex;
+  }
+  .cajaSieste {
+    width: 120%;
+    margin-top: 3%;
+  }
+  .cajaOcho {
+    width: 80%;
+  }
+}
+.history p {
+  color: black;
+}
+.history hr {
+  color: black;
+}
+
+.bienvenido {
+  text-align: center;
+  color: white;
+  margin-top: 3%;
+}
+
+.mapa {
+  margin-left: 6%;
+}
+
+.papaCard {
+  margin-right: 5%;
+}
+
+.noti {
+  margin-left: 1%;
+}
+
+@media (max-width: 603px) {
+  .conte {
+    margin-left: 15%;
+  }
+}
+@media (min-width: 500px) and (max-width: 605px) {
+  .conte {
+    margin-left: 23%;
+  }
+}
+.div {
+  background-color: white;
+}
+
+.publicidad {
+  text-align: center;
+  margin-top: 4%;
 }
 
 /*# sourceMappingURL=estilo.css.map */

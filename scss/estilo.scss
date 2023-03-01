@@ -4,8 +4,7 @@
 
 .titulo {
 	text-align: center;
-	background-color: $background-color_1;
-	color: $color_1;
+	background: linear-gradient(to right,  $background-color_1, white);
 }
 .menucito {
 	text-align: center;
@@ -18,7 +17,7 @@
 	color: $color_2;
 }
 body {
-	background-color: $background-color_1;
+	background: linear-gradient( $background-color_1, white);
 }
 .noticias {
 	color: $color_1;
@@ -28,54 +27,91 @@ body {
 }
 footer {
 	ul {
-		color: $color_1;
+		color: black;
 		list-style: none;
+		background-color: white;
+	
 	}
 }
 .linea {
-	color: $color_1;
+	color: black;
 }
 .informacion {
 	text-align: center;
-	color: $color_3;
+	color: black;
+	font-weight: bold;
 }
 u {
 	color: $color_3;
 }
 .padre {
-	background-color: #CFDEE8;
+	background-color: whitesmoke;
 	margin-left: 4%;
 	margin-right: 4%;
 }
 .ulUno {
 	li {
-		color: $color_4;
+		color: black;
+		text-transform: uppercase;
+		font-weight: bold;
 	}
-}
+	p { 
+		color: black;
+	}
+	}
 .video {
 	text-align: center;
 }
-.conte {
-	background-color: $background-color_3;
-}
+
 .cardUno {
 	grid-area: cardUno;
+	&:hover { 
+	background-color: $fondo-color;
+	}
 }
 .cardDos {
 	grid-area: cardDos;
+&:hover { 
+background-color: $fondo-color;
+}
 }
 .cardTres {
 	grid-area: cardTres;
+&:hover { 
+	background-color: $fondo-color;
+}
 }
 .cardCuatro {
 	grid-area: cardCuatro;
+&:hover { 
+	background-color: $fondo-color;
+}
 }
 .cardCinco {
 	grid-area: cardCinco;
+&:hover { 
+	background-color: $fondo-color;
+}
 }
 .cardSeis {
 	grid-area: cardSeis;
+	&:hover { 
+		background-color: $fondo-color;
+	}
 }
+.cardSiete { 
+	grid-area: cardSiete;
+&:hover { 
+	background-color: $fondo-color;
+}
+}
+ .cardOcho { 
+	grid-area: cardOcho;
+&:hover { 
+	background-color: $fondo-color;
+}
+}
+
 .tablas {
 	background-color: $background-color_4;
 }
@@ -108,9 +144,9 @@ h4 {
 .talleres {
 	color: $color_1;
 	text-align: center;
-	font-size: xxx-large;
+	font-style: italic;
 	margin-top: 2%;
-	border: solid gray 1px;
+	border: solid white 1px;
 	background-color: $background-color_5;
 	padding: 1%;
 }
@@ -122,15 +158,16 @@ h3 {
 	color: $color_1;
 }
 .subtitulos {
-	font-size: x-large;
-	text-align: center;
-}
+	color: black;
+text-align: center;
+font-size: x-large;
+font-style: italic;
+
+}  
 .imagen {
 	text-align: center;
 }
-.unPoco {
-	text-align: center;
-}
+
 .servicio {
 	color: $color_1;
 	text-align: center;
@@ -151,10 +188,11 @@ h3 {
 .contacto {
 	color: $color_2;
 }
-@media (min-width:1200px) {
+@media (min-width:1190px) {
 	.conte {
 		display: grid;
-		grid-template-areas: "cardUno cardDos cardTres ""cardCuatro cardCinco cardSeis ";
+		grid-template-areas: "cardUno cardDos cardTres cardSiete"
+		                     "cardCuatro cardCinco cardSeis cardOcho";
 	}
 }
 @media (min-width:900px) {
@@ -192,11 +230,10 @@ h3 {
     h2 { 
         text-align: center;
     font-size: 3rem;
-
     }
 }
-.formulario { 
-	background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
+.contactoFondo {
+	background: linear-gradient(to right blue, red);
 }
 .contact {
     text-align: center;
@@ -218,6 +255,113 @@ nav {
 	
 	background-image: url(../imagenes/asociate.jpg);
 }
-.bodyContact { 
-	background-image: url(../imagenes/un-fondo-de-las-muestras-del-signo-de-interrogación-43991252.jpg);
+
+.infoT { 
+		text-align: center;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+
+
+@media(min-width:1100px) {
+
+.flexUno { 
+ display: flex;
+flex-direction: row;
+.cajaUno { 
+	width: 120%;
+margin-top: 3%;
+}
+.cajaDos { 
+	width:70% ;
+}
+}
+} 
+@media(min-width:1100px) { 
+	.flexDos { 
+		display: flex;
+		flex-direction: row;
+	}
+	.cajaTres { 
+		width: 100%;
+		margin-left: 2%;
+	}
+	.cajaCuatro { 
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media(min-width:1100px) { 
+.flexTres { 
+	display: flex;
+}
+.cajaSeis { 
+	width: 70%;
+}
+.cajaCinco { 
+	width: 120%;
+}
+}
+
+@media(min-width:1100px) { 
+	.flexCuatro { 
+		display: flex;
+	}
+	.cajaSieste { 
+		width: 120%;
+		margin-top: 3%;
+	}
+	.cajaOcho { 
+		width: 80%;
+	}
+}
+
+.history { 
+	p { 
+		color: black;
+	}
+	hr { 
+		color: black;
+	}
+}
+
+
+.bienvenido { 
+text-align: center;
+color: white;
+margin-top: 3%;
+}
+
+.mapa { 
+	margin-left: 6%;
+}
+
+.papaCard { 
+margin-right: 5%;
+}
+.noti { 
+	margin-left: 1%;
+}
+
+@media (max-width: 603px ) { 
+.conte { 
+	margin-left: 15%;
+}
+}
+
+@media (min-width:500px) and (max-width:605px) { 
+	.conte { 
+		margin-left: 23%;
+	}
+}
+
+.div { 
+	background-color: white;
+}
+
+.publicidad { 
+	text-align: center;
+	margin-top: 4%;
+   
 }
