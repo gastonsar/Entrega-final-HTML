@@ -7,63 +7,14 @@
   text-align: center;
 }
 
-.imagenUno {
-  margin-left: 25%;
+.bienvenido {
+  text-align: center;
+  color: white;
   margin-top: 3%;
 }
 
-.noDejes {
-  color: black;
-}
-
-body {
-  background: linear-gradient(#252850, white);
-}
-
-.noticias {
-  color: white;
-  text-align: center;
-  margin-top: 5%;
-  background-color: grey;
-}
-
-footer ul {
-  color: black;
-  list-style: none;
-  background-color: white;
-}
-
-.linea {
-  color: black;
-}
-
-.informacion {
-  text-align: center;
-  color: black;
-  font-weight: bold;
-}
-
-u {
-  color: orange;
-}
-
-.padre {
-  background-color: whitesmoke;
-  margin-left: 4%;
-  margin-right: 4%;
-}
-
-.ulUno li {
-  color: black;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-.ulUno p {
-  color: black;
-}
-
-.video {
-  text-align: center;
+.noti {
+  margin-left: 1%;
 }
 
 .cardUno {
@@ -122,17 +73,66 @@ u {
   background-color: #D1D9DE;
 }
 
-.tablas {
-  background-color: wheat;
+footer ul {
+  color: black;
+  list-style: none;
+  background-color: white;
+}
+footer li a {
+  text-decoration: none;
 }
 
-.tabla {
-  background-color: white;
+.socios {
+  background-image: url(../imagenes/asociate.jpg);
+}
+
+body {
+  background: linear-gradient(#252850, white);
+}
+
+.padre {
+  background-color: whitesmoke;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+u {
+  color: black;
+}
+
+.informacion {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.ulUno li {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ulUno p {
+  color: black;
 }
 
 .tituloUno {
   text-align: center;
-  color: orange;
+  color: red;
+  font-weight: bold;
+}
+
+.tituloDos {
+  color: red;
+  font-weight: bold;
+}
+
+.tituloTres {
+  color: red;
+  text-align: center;
+}
+
+.padreTablas {
+  margin-top: 3%;
 }
 
 .sectionB {
@@ -143,8 +143,36 @@ u {
   grid-area: sectionC;
 }
 
-.padreTablas {
+.imagenUno {
+  margin-left: 25%;
   margin-top: 3%;
+}
+
+.noDejes {
+  color: black;
+}
+
+.noticias {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  background-color: grey;
+}
+
+.linea {
+  color: black;
+}
+
+.video {
+  text-align: center;
+}
+
+.tablas {
+  background-color: wheat;
+}
+
+.tabla {
+  background-color: white;
 }
 
 h4 {
@@ -175,8 +203,11 @@ h3 {
   margin-top: 3%;
 }
 
-.history {
-  color: white;
+.history p {
+  color: black;
+}
+.history hr {
+  color: black;
 }
 
 .subtitulos {
@@ -271,10 +302,6 @@ nav ul li a {
   text-decoration: none;
 }
 
-.socios {
-  background-image: url(../imagenes/asociate.jpg);
-}
-
 .infoT {
   text-align: center;
   margin-top: 2%;
@@ -331,19 +358,15 @@ nav ul li a {
     width: 80%;
   }
 }
-.history p {
-  color: black;
+@media (min-width: 1100px) {
+  .flexCinco {
+    display: flex;
+  }
+  .flexCinco .cajaDiez {
+    width: 80%;
+    margin-left: 2%;
+  }
 }
-.history hr {
-  color: black;
-}
-
-.bienvenido {
-  text-align: center;
-  color: white;
-  margin-top: 3%;
-}
-
 .mapa {
   margin-left: 6%;
 }
@@ -352,27 +375,38 @@ nav ul li a {
   margin-right: 5%;
 }
 
-.noti {
-  margin-left: 1%;
-}
-
-@media (max-width: 603px) {
+@media (min-width: 350px) and (max-width: 625px) {
   .conte {
-    margin-left: 15%;
-  }
-}
-@media (min-width: 500px) and (max-width: 605px) {
-  .conte {
-    margin-left: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .div {
   background-color: white;
 }
 
-.publicidad {
+.papaPublicidad {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+.papaPublicidad .publicidadDos {
+  margin-left: 3%;
+}
+.papaPublicidad h3 {
+  color: blue;
   text-align: center;
-  margin-top: 4%;
+}
+.papaPublicidad .publicidad {
+  text-align: center;
+  margin-left: 1%;
+}
+
+.infot {
+  text-align: center;
+  margin-top: 1%;
+  color: white;
 }
 
 /*# sourceMappingURL=estilo.css.map */
